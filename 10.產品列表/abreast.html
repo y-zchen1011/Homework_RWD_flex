@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>abreast</title>
+    <link href="../CSS_reset.css" rel="stylesheet">
+    <style>
+        .wrapper{
+
+            padding: 2px;
+            outline: 1px solid black;
+            display: flex;
+
+            margin: 0 auto;
+        }
+        a{
+            text-decoration: none;
+        }
+        .menu {
+            display: flex;
+            flex-direction: column;
+            justify-content: flex-start;
+            width: 300px !important;
+            margin-right: 24px;
+        }
+        .menu li{
+            text-align: center;
+            border: 1px solid #e7eeea;
+            padding: 21px 0;
+        }
+        .menu li:nth-child(1){
+            font-size: 29px;
+            color: white;
+            background-color: #37523d;
+        }
+        .menu li:nth-child(2){
+            background-color: #e7eeea;
+        }
+        .menu a{
+            color: #37523d;
+            font-size: 23px;
+        }
+
+        .product{
+            display: flex;
+            justify-content: flex-start;
+            flex-wrap: wrap;
+            width: 642px;
+        }
+
+        .item{
+            display: flex;
+            flex-direction: column;
+            margin-right: 22px;
+            margin-bottom: 19px;
+            width: 299px;
+        }
+        .item ul{
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            border: 1px solid #e7eeea;
+
+        }
+        .item li{
+            font-size: 21px;
+            color: #37523d;
+        }
+        .item li:nth-child(1){
+            padding:21px 36px;
+        }
+        .item li:nth-child(2){
+            padding:21px 21px;
+            border-left: 1px solid #e7eeea;
+        }
+
+        .chart{
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            background-color: #e7eeea;
+            padding: 31px 0;
+        }
+        .chart a{
+            text-decoration: none;
+            color: #37523d;
+            font-size: 24px;
+        }
+
+
+    </style>
+</head>
+<body>
+
+<div class="wrapper">
+    <div class="menu">
+        <ul>
+            <li>甜點類別</li>
+            <li><a href="#">所有甜點(45)</a></li>
+            <li><a href="#">本日精選(10)</a></li>
+            <li><a href="#">人氣精選(26)</a></li>
+            <li><a href="#">新品上市(12)</a></li>
+        </ul>
+    </div>
+    <div class="product">
+        <div class="item">
+            <img src="pic1.png">
+            <ul>
+                <li>焦糖甜甜圈</li>
+                <li>NT$ 450</li>
+            </ul>
+            <div class="chart"><a href="#">加入購物車</a></div>
+        </div>
+        <div class="item">
+            <img src="pic2.png">
+            <ul>
+                <li>焦糖甜甜圈</li>
+                <li>NT$ 450</li>
+            </ul>
+            <div class="chart"><a href="#">加入購物車</a></div>
+        </div>
+        <div class="item">
+            <img src="pic3.png">
+            <ul>
+                <li>焦糖甜甜圈</li>
+                <li>NT$ 450</li>
+            </ul>
+            <div class="chart"><a href="#">加入購物車</a></div>
+        </div>
+    </div>
+</div>
+
+
+</body>
+</html>

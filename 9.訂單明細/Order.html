@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Order</title>
+    <link href="../CSS_reset.css" rel="stylesheet">
+    <style>
+        .wrapper{
+            width: 311px;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-around;
+            align-items: center;
+            outline: 1px solid #e7eeea;
+            padding: 5px 0;
+        }
+        .abstract, .orderList{
+            display: flex;
+            flex-direction: column;
+        }
+        .abstract{
+            margin-bottom: 17px;
+        }
+        .title{
+            font-size: 24px;
+            color: #37523d;
+            padding: 22px 106px 24px 104px;
+            background-color: #e7eeea;
+        }
+        .sum, .details{
+            border: 1px solid #e7eeea;
+            color: #37523d;
+        }
+        .sum{
+            padding: 22px 17px 15px 17px;
+        }
+        .sum ul{
+            display: flex;
+            justify-content: space-between;
+            font-size: 15px;
+        }
+        .sum ul:nth-child(2){
+            margin: 19px 0 26px 0;
+        }
+        .sum ul:nth-child(3){
+            font-size: 18px;
+            font-weight: bolder;
+        }
+
+        .details{
+            display: flex;
+            flex-direction: column;
+            justify-content: space-evenly;
+            padding: 17px 0;
+        }
+        .item{
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+        }
+        .item:nth-child(2){
+            margin: 17px 0;
+        }
+        .item li{
+            font-size: 17px;
+            line-height: 23px;
+        }
+
+
+    </style>
+</head>
+<body>
+
+<div class="wrapper">
+    <div class="abstract">
+        <div class="title">頂單摘要</div>
+        <div class="sum">
+            <ul>
+                <li>小計</li>
+                <li>NT$ 2,700</li>
+            </ul>
+            <ul>
+                <li>運費</li>
+                <li>NT$ 300</li>
+            </ul>
+            <ul>
+                <li>總計</li>
+                <li>NT$ 3,000</li>
+            </ul>
+        </div>
+    </div>
+    <div class="orderList">
+        <div class="title">購物清單</div>
+        <div class="details">
+            <div class="item">
+                <img src="pic.png">
+                <ul>
+                    <li>焦糖馬卡龍 (2)</li>
+                    <li>NT$ 900</li>
+                </ul>
+            </div>
+            <div class="item">
+                <img src="pic.png">
+                <ul>
+                    <li>焦糖馬卡龍 (2)</li>
+                    <li>NT$ 900</li>
+                </ul>
+            </div>
+            <div class="item">
+                <img src="pic.png">
+                <ul>
+                    <li>焦糖馬卡龍 (2)</li>
+                    <li>NT$ 900</li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</div>
+
+</body>
+</html>

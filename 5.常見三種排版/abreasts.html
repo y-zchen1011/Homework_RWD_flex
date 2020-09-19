@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>abreast</title>
+    <link href="../CSS_reset.css" rel="stylesheet">
+    <style>
+        .wrapper{
+            display: flex;
+            flex-direction: column;
+            justify-content: space-around;
+            background-color: white;
+            width: 1288px;
+            outline: 1px solid black;
+            padding: 2px;
+        }
+        .f_row{
+            display: flex;
+            justify-content: center;
+            background-color: #e7eeea;
+        }
+        .f_col{
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            background-color: #e7eeea;
+        }
+        h4{
+            color: #37523d;
+            font-size: 18px;
+            font-weight: bolder;
+            margin-bottom: 20px;
+        }
+        p{
+            color: #37523d;
+            font-size: 14px;
+            line-height: 20px;
+        }
+
+        .item_lg{
+            padding: 18px 23px 16px 25px;
+        }
+        .item_lg .item{
+            margin-bottom: 35px;
+        }
+        .item_lg img{
+            margin-right: 12px;
+        }
+        .item_lg img:nth-child(2){
+            margin-left: 14px;
+        }
+        .item_lg .text{
+            margin-top: 40px;
+        }
+        .item_lg .item:nth-child(2){
+            margin-left: 77px;
+            margin-right: 0;
+        }
+
+        .item_md{
+            padding: 17px 41px 30px 41px;
+            margin-bottom: 48px;
+            justify-content: space-evenly!important;
+        }
+        .item_md .text{
+            margin-top: 10px;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+        }
+        .item_md .text p{
+            text-align: center;
+        }
+
+
+
+        .item_sm{
+            padding: 18px 45px 30px 28px;
+            margin-bottom: 48px;
+        }
+        .item_sm img{
+            height: 54px;
+            margin-right: 14px;
+        }
+        .item_sm .text{
+            margin-top: 8px;
+        }
+        .item{
+            margin-right: 50px;
+        }
+
+    </style>
+</head>
+<body>
+
+<div class="wrapper">
+    <div class="f_row item_sm">
+        <div class="item f_row">
+            <img src="logo-small.png">
+            <div class="text">
+                <div class="text">
+                    <h4>為什麼一定要吃甜點？</h4>
+                    <p>青山依舊在，幾度夕陽紅。
+                        慣看秋月春風。一壺濁酒喜相逢，
+                        滾滾長江東逝水，白髮漁樵江渚上，
+                        古今多少事，都付笑談中。</p>
+                </div>
+            </div>
+        </div>
+        <div class="item f_row">
+            <img src="logo-small.png">
+            <div class="text">
+                <div class="text">
+                    <h4>為什麼一定要吃甜點？</h4>
+                    <p>青山依舊在，幾度夕陽紅。
+                        慣看秋月春風。一壺濁酒喜相逢，
+                        滾滾長江東逝水，白髮漁樵江渚上，
+                        古今多少事，都付笑談中。</p>
+                </div>
+            </div>
+        </div>
+        <div class="item_last f_row">
+            <img src="logo-small.png">
+            <div class="text">
+                <div class="text">
+                    <h4>為什麼一定要吃甜點？</h4>
+                    <p>青山依舊在，幾度夕陽紅。
+                        慣看秋月春風。一壺濁酒喜相逢，
+                        滾滾長江東逝水，白髮漁樵江渚上，
+                        古今多少事，都付笑談中。</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="item_md f_row">
+        <div class="item f_col">
+            <img src="logo-medium.png">
+            <div class="text">
+                <h4>為什麼一定要吃甜點？</h4>
+                <p>青山依舊在，幾度夕陽紅。
+                    慣看秋月春風。一壺濁酒喜相逢，
+                    浪花淘盡英雄。是非成敗轉頭空，
+                    滾滾長江東逝水，白髮漁樵江渚上，
+                    古今多少事，都付笑談中。</p>
+            </div>
+        </div>
+        <div class="item f_col">
+            <img src="logo-medium.png">
+            <div class="text">
+                <h4>為什麼一定要吃甜點？</h4>
+                <p>青山依舊在，幾度夕陽紅。
+                    浪花淘盡英雄。是非成敗轉頭空，
+                    滾滾長江東逝水，白髮漁樵江渚上，
+                    古今多少事，都付笑談中。</p>
+            </div>
+        </div>
+        <div class="item_last f_col">
+            <img src="logo-medium.png">
+            <div class="text">
+                <h4>為什麼一定要吃甜點？</h4>
+                <p>青山依舊在，幾度夕陽紅。
+                    浪花淘盡英雄。是非成敗轉頭空，
+                    滾滾長江東逝水，白髮漁樵江渚上，
+                    古今多少事，都付笑談中。</p>
+            </div>
+        </div>
+    </div>
+    <div class="f_col item_lg">
+        <div class="item f_row">
+            <img src="logo-big.png">
+            <div class="text">
+                <h4>為什麼一定要吃甜點？</h4>
+                <p>青山依舊在，幾度夕陽紅。
+                    慣看秋月春風。一壺濁酒喜相逢，
+                    浪花淘盡英雄。是非成敗轉頭空，
+                    滾滾長江東逝水，白髮漁樵江渚上，
+                    古今多少事，都付笑談中。</p>
+            </div>
+        </div>
+        <div class="item f_row">
+            <div class="text">
+                <h4>為什麼一定要吃甜點？</h4>
+                <p>青山依舊在，幾度夕陽紅。
+                    慣看秋月春風。一壺濁酒喜相逢，
+                    浪花淘盡英雄。是非成敗轉頭空，
+                    滾滾長江東逝水，白髮漁樵江渚上，
+                    古今多少事，都付笑談中。</p>
+            </div>
+            <img src="logo-big.png">
+        </div>
+    </div>
+</div>
+
+</body>
+</html>
